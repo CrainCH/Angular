@@ -2,11 +2,14 @@
 
 my Angular tutorial repository
 
-### Table of contents
+Table of contents
+=================
+
 **[CLI commands](#cli-commands)**<br>
 **[Software](#software)**<br>
 
-### CLI commands
+CLI commands
+============
 
 #### Start Visual Studio Code
 ```
@@ -14,12 +17,14 @@ cd PATH
 code .
 ```
 
-### Start server
+#### Start server
 ```
 ng serve -o
 ```
 
-#### Software
+Software
+========
+
 * [Git](https://git-scm.com/download/)
 * [Git Extensions](https://sourceforge.net/projects/gitextensions/)
 * [Helix Visual Merge Tool](https://www.perforce.com/downloads/visual-merge-tool)
