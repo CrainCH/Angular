@@ -7,6 +7,6 @@
         <p class="attribute">{{ brew.state }}</p>
         <p class="attribute">{{ brew.street }}</p>
         <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
-        <a href="{{ brew.website_url }}" target="_blank" class="attribute">Website</a>
+        <a *ngIf="brew.website_url" href="{{ brew.website_url }}" target="_blank" class="attribute">Website</a>
     </li>
 </ul>
