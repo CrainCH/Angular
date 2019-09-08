@@ -1,7 +1,7 @@
 {
   "name": "crash-course",
   "version": "0.0.0",
-  "homepage": "https://CrainCH.github.io/Angular/crash-course",
+  "homepage": "https://CrainCH.github.io/Angular/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/crash-course"
   },
   "private": true,
   "dependencies": {
