@@ -30,13 +30,13 @@ ng serve -o
 
 #### Deploy to GitHub
 
-install ghpages dependency
+Install ghpages dependency
 ```
 npm i -g angular-cli-ghpages
 ```
 
-deploy to GitHub<br>
-**Warning: fix project name**
+Deploy to GitHub<br>
+**Warning: fix repository and project name**
 ```
 ng build --prod --base-href https://CrainCH.github.io/Angular/crash-course
 ngh --dir dist/crash-course
