@@ -34,7 +34,12 @@ export class ListComponent implements OnInit {
 
   filterBrews(searchTerm: string) {
     return this.brews.filter(brews =>
-      brews.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1);
+      brews.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+      || brews.country.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+      || brews.state.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+      || brews.street.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+      || brews.phone.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+    );
   }
 
 }
