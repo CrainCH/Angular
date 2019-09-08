@@ -5,8 +5,14 @@ my Angular tutorial repository
 Table of contents
 =================
 
+**[Demo applications](#demo-applications)**<br>
 **[CLI commands](#cli-commands)**<br>
 **[Software](#software)**<br>
+
+Demo applications
+=================
+
+**[Crash Course (deployed on GitHub)](https://crainch.github.io/Angular/crash-course/)**<br>
 
 CLI commands
 ============
