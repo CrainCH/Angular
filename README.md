@@ -1,7 +1,5 @@
 ![Angular logo](https://fewclicks.io/wp-content/uploads/2017/08/tool-logo-angular.png)
 
-my Angular tutorial repository
-
 Table of contents
 =================
 
