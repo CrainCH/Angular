@@ -10,7 +10,7 @@ Table of contents
 Demo applications
 =================
 
-**[Crash Course (deployed on GitHub)](https://crainch.github.io/Angular/crash-course/)**<br>
+**[Crash Course (deployed on GitHub)](https://crainch.github.io/Angular/crash-course/list)**<br>
 
 CLI commands
 ============
