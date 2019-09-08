@@ -22,6 +22,20 @@ code .
 ng serve -o
 ```
 
+#### Deploy to GitHub
+
+install ghpages dependency
+```
+npm i -g angular-cli-ghpages
+```
+
+deploy to GitHub<br>
+**Warning: fix project name**
+```
+ng build --prod --base-href https://CrainCH.github.io/Angular/crash-course
+ngh --dir dist/crash-course
+```
+
 Software
 ========
 
