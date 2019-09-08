@@ -4,8 +4,9 @@
     <li *ngFor="let brew of brews">
         <p class="name">{{ brew.name }}</p>
         <p class="country">{{ brew.country }}</p>
-        <p class="state">{{ brew.state }}</p>
-        <p class="street">{{ brew.street }}</p>
-        <a href="{{ brew.website_url }}" class="site">site</a>
+        <p class="attribute">{{ brew.state }}</p>
+        <p class="attribute">{{ brew.street }}</p>
+        <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
+        <a href="{{ brew.website_url }}" class="attribute">Website</a>
     </li>
 </ul>
