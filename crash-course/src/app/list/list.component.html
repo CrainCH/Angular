@@ -1,7 +1,13 @@
 <h1>Breweries</h1>
 
+<div class="play-container">
+    <p>
+        <input type="text" placeholder="Search by name" style="width: 300px" [(ngModel)]="searchTerm">
+    </p>
+</div>
+
 <ul *ngIf="brews">
-    <li *ngFor="let brew of brews">
+    <li *ngFor="let brew of filteredBrews">
         <p class="name">{{ brew.name }}</p>
         <p class="country">{{ brew.country }}</p>
         <p class="attribute">{{ brew.state }}</p>
