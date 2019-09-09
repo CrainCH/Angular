@@ -2,17 +2,21 @@
 
 <div class="play-container">
     <p>
-        <input type="text" placeholder="Search by any term" style="width: 300px" [(ngModel)]="searchTerm">
+        <input type="text" class="form-control" placeholder="Search by any term" style="width: 280px"
+            [(ngModel)]="searchTerm">
     </p>
 </div>
 
 <ul *ngIf="brews">
-    <li *ngFor="let brew of filteredBrews">
+    <li *ngFor="let brew of filteredBrews" class="service-item">
         <p class="name">{{ brew.name }}</p>
-        <p class="country">{{ brew.country }}</p>
+        <br>
+        <p class="attribute">{{ brew.country }}</p>
         <p class="attribute">{{ brew.state }}</p>
         <p class="attribute">{{ brew.street }}</p>
         <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
-        <a *ngIf="brew.website_url" href="{{ brew.website_url }}" target="_blank" class="attribute">Website</a>
+        <div class="primary-button">
+            <a *ngIf="brew.website_url" href="{{ brew.website_url }}" target="_blank">Website</a>
+        </div>
     </li>
 </ul>

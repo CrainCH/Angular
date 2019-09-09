@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http.service';
 import { Brew } from './Brew';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-list',
