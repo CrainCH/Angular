@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
+    "build-and-deploy-to-github": "ng build --prod --base-href https://CrainCH.github.io/Angular/crash-course && ngh --dir dist/crash-course",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
