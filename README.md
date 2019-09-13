@@ -10,7 +10,7 @@ Table of contents
 Demo applications
 =================
 
-**[Crash Course (deployed on GitHub)](https://crainch.github.io/Angular/crash-course/list)**<br>
+**[Angular Playground (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list)**<br>
 
 CLI commands
 ============
@@ -36,8 +36,8 @@ npm i -g angular-cli-ghpages
 Deploy to GitHub<br>
 **Warning: fix repository and project name**
 ```
-ng build --prod --base-href https://CrainCH.github.io/Angular/crash-course
-ngh --dir dist/crash-course
+ng build --prod --base-href https://CrainCH.github.io/Angular/angular-playground
+ngh --dir dist/angular-playground
 ```
 
 Software

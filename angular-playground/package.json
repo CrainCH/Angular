@@ -1,11 +1,11 @@
 {
-  "name": "crash-course",
+  "name": "angular-playground",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
-    "build-and-deploy-to-github": "ng build --prod --base-href https://CrainCH.github.io/Angular/crash-course && ngh --dir dist/crash-course",
+    "build-and-deploy-to-github": "ng build --prod --base-href https://CrainCH.github.io/Angular/angular-playground && ngh --dir dist/angular-playground",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
