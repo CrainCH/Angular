@@ -1,11 +1,8 @@
 <h1>Breweries</h1>
 
-<div class="play-container">
-    <p>
-        <input type="text" placeholder="Search by any term" style="width: 280px"
-            [(ngModel)]="searchTerm">
-    </p>
-</div>
+<p>
+    <input type="text" placeholder="Search by any term" style="width: 280px" [(ngModel)]="searchTerm">
+</p>
 
 <ul *ngIf="brews">
     <li *ngFor="let brew of filteredBrews" class="service-item">
