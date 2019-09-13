@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Brew, BrewAdapter } from './list/Brew';
+import { Brew, BrewAdapter } from './brew';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 

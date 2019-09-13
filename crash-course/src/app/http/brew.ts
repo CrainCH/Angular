@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Adapter } from './Adapter';
+import { Adapter } from './adapter';
 
 export class Brew {
     constructor(

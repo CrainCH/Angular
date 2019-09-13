@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpService } from '../http.service';
-import { Brew } from './Brew';
+import { HttpService } from '../http/http.service';
+import { Brew } from '../http/brew';
 
 @Component({
   selector: 'app-list',
