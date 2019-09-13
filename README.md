@@ -47,4 +47,4 @@ Software
 * [Git Extensions](https://sourceforge.net/projects/gitextensions/)
 * [Helix Visual Merge Tool](https://www.perforce.com/downloads/visual-merge-tool)
 * [Visual Studio Code](https://code.visualstudio.com/Download)
-* [Node.js](https://nodejs.org/en/download/)
+* [Node.js](https://nodejs.org/en/)
