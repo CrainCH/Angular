@@ -16,7 +16,7 @@ export class ListComponent implements OnInit {
   constructor(private http: HttpService) { }
 
   ngOnInit() {
-    this.http.getBeer().subscribe(data => {
+    this.http.getBrews().subscribe(data => {
       this.brews = data;
       this.filteredBrews = data;
     });

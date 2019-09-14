@@ -23,7 +23,7 @@ export class Brew {
 })
 export class BrewAdapter implements Adapter<Brew> {
 
-    adapt(item: any): Brew {
+    adapt(item: any) {
         return new Brew(
             item.id,
             item.name,

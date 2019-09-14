@@ -9,15 +9,19 @@ import { HttpService } from '../http/http.service';
 })
 export class HomeComponent implements OnInit {
 
-  brew: Brew;
+  brew: Brew = new Brew();
+  countries: string[];
 
   states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'Nebraska'];
 
   constructor(private http: HttpService) { }
 
   ngOnInit() {
-    this.http.getBeer().subscribe(data => {
+    this.http.getBrews().subscribe(data => {
       this.brew = data[0];
+    });
+    this.http.getCountryNames().subscribe(data => {
+      this.countries = data;
     });
   }
 

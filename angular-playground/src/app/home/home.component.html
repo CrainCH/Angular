@@ -6,7 +6,8 @@
         <input name="name" id="name" [(ngModel)]="brew.name" required />
 
         <label for="country">Country</label>
-        <input name="country" id="country" [(ngModel)]="brew.country" required />
+        <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brew.country">
+        </ng-select>
 
         <label for="state">State</label>
         <ng-select name="state" id="state" [items]="states" [(ngModel)]="brew.state">
@@ -16,7 +17,7 @@
         <input name="street" id="street" [(ngModel)]="brew.street" required />
 
         <label for="phone">Phone</label>
-        <input name="phone" id="phone" [(ngModel)]="brew.phone" />
+        <input name="phone" id="phone" [(ngModel)]="brew.phone" required />
 
         <label for="website_url">Website</label>
         <input name="website_url" id="website_url" [(ngModel)]="brew.website_url" />
