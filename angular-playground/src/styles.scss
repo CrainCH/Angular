@@ -52,10 +52,18 @@ label {
   width: 76%;
   font-size: $font-size;
   color: $font-color;
-  height: 45px;
+  margin-bottom: 8px;
 }
 
-input {
+.ng-select:focus,
+.ng-select:hover {
+  border-color: $focus-color;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px $shadow-color, 0 0 8px $focus-color;
+  box-shadow: inset 0 1px 1px $shadow-color, 0 0 8px $focus-color;
+}
+
+.input {
   display: block;
   width: 70%;
   height: 23px;
@@ -74,7 +82,8 @@ input {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-input:focus {
+.input:focus,
+.input:hover {
   border-color: $focus-color;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px $shadow-color, 0 0 8px $focus-color;
