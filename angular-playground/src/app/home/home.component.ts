@@ -12,6 +12,15 @@ export class HomeComponent implements OnInit {
   brew: Brew = new Brew();
   countries: string[];
 
+  selectedTags = [1, 4];
+  tags = [
+    { id: 1, name: 'Beer' },
+    { id: 2, name: 'Brandy' },
+    { id: 3, name: 'Champagne' },
+    { id: 4, name: 'Whisky' },
+    { id: 5, name: 'Wine' },
+  ];
+
   constructor(private http: HttpService) { }
 
   ngOnInit() {

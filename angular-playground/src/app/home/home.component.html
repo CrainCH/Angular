@@ -19,6 +19,12 @@
 
     <label for="website_url">Website</label>
     <input name="website_url" id="website_url" [(ngModel)]="brew.website_url" class="input" />
+
+    <label for="tags">Tags</label>
+    <ng-select [multiple]="true" [(ngModel)]="selectedTags">
+        <ng-option *ngFor="let tag of tags" [value]="tag.id">{{tag.name}}</ng-option>
+    </ng-select>
+
     <br>
 </div>
 
