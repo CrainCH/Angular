@@ -1,7 +1,8 @@
 <h1>Breweries</h1>
 
 <p>
-    <input type="text" placeholder="Search by any term" style="width: 260px" [(ngModel)]="searchTerm" class="input">
+    <input type="text" placeholder="Search by any term" style="width: 260px; min-width: 260px" [(ngModel)]="searchTerm"
+        class="input">
 </p>
 
 <ul *ngIf="brews">

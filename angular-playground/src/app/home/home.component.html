@@ -1,28 +1,25 @@
 <h1>Edit Brewery</h1>
 
-<div>
-    <div class="sidebar">
-        <label for="name">Name</label>
-        <input name="name" id="name" [(ngModel)]="brew.name" class="input" required />
+<div class="sidebar">
+    <label for="name">Name</label>
+    <input name="name" id="name" [(ngModel)]="brew.name" class="input" required />
 
-        <label for="country">Country</label>
-        <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brew.country">
-        </ng-select>
+    <label for="country">Country</label>
+    <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brew.country">
+    </ng-select>
 
-        <label for="state">State</label>
-        <input name="state" id="state" [(ngModel)]="brew.state" class="input" required />
+    <label for="state">State</label>
+    <input name="state" id="state" [(ngModel)]="brew.state" class="input" required />
 
-        <label for="street">Street</label>
-        <input name="street" id="street" [(ngModel)]="brew.street" class="input" required />
+    <label for="street">Street</label>
+    <input name="street" id="street" [(ngModel)]="brew.street" class="input" required />
 
-        <label for="phone">Phone</label>
-        <input name="phone" id="phone" [(ngModel)]="brew.phone" class="input" required />
+    <label for="phone">Phone</label>
+    <input name="phone" id="phone" [(ngModel)]="brew.phone" class="input" required />
 
-        <label for="website_url">Website</label>
-        <input name="website_url" id="website_url" [(ngModel)]="brew.website_url" class="input" />
-    </div>
-
-    <div>
-        <app-brew-card [brew]="brew"></app-brew-card>
-    </div>
+    <label for="website_url">Website</label>
+    <input name="website_url" id="website_url" [(ngModel)]="brew.website_url" class="input" />
+    <br>
 </div>
+
+<app-brew-card [brew]="brew"></app-brew-card>
