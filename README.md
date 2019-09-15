@@ -10,7 +10,7 @@ Table of contents
 Demo applications
 =================
 
-**[Angular Playground (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list)**<br>
+**[Angular Playground (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list/)**<br>
 
 CLI commands
 ============
