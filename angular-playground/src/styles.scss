@@ -170,60 +170,36 @@ header {
   color: white;
 }
 
-.service-item:hover .primary-button a {
+.service-item:hover .primary-button {
   background-color: $focus-color-dark;
+  cursor: pointer;
 }
 
-.primary-button a {
+.primary-button {
   display: inline-block;
   background-color: $focus-color;
   padding: 12px 18px;
   color: white;
   font-size: 11px;
-  font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 20px;
   transition: all 0.5s;
+  border: 0px;
+  width: 92px;
+  height: 39px;
+  align-self: center;
+  outline: none;
 }
 
-.primary-button a:hover {
+.primary-button:disabled {
+  color: whitesmoke;
+  background-color: darkgray;
+  cursor: not-allowed;
+}
+
+.primary-button:enabled:hover {
   background-color: $focus-color-dark;
-}
-
-.white-button a {
-  display: inline-block;
-  background-color: white;
-  padding: 12px 18px;
-  color: black;
-  font-size: 11px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 20px;
-  transition: all 0.5s;
-}
-
-.white-button a:hover {
-  background-color: black;
-  color: white;
-}
-
-.black-button a {
-  display: inline-block;
-  background-color: black;
-  padding: 12px 18px;
-  color: white;
-  font-size: 11px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 20px;
-  transition: all 0.5s;
-}
-
-.black-button a:hover {
-  background-color: white;
-  color: black;
+  cursor: pointer;
 }

@@ -12,4 +12,8 @@ export class BrewCardComponent {
 
   constructor() { }
 
+  public openLink() {
+    window.open(this.brew.website_url, "_blank");
+  }
+
 }

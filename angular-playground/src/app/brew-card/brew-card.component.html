@@ -5,7 +5,7 @@
     <p class="attribute">{{ brew.state }}</p>
     <p class="attribute">{{ brew.street }}</p>
     <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
-    <div class="primary-button">
-        <a *ngIf="brew.website_url" href="{{ brew.website_url }}" target="_blank">Website</a>
-    </div>
+    <button [disabled]="!brew.website_url" (click)="openLink()" class="primary-button">
+        Website
+    </button>
 </li>
