@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
-import { PhonePipe } from './list/phone.pipe';
+import { PhonePipe } from './pipes/phone.pipe';
 import { BrewCardComponent } from './brew-card/brew-card.component';
 
 @NgModule({
