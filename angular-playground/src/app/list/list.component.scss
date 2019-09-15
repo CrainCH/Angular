@@ -4,27 +4,4 @@ ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-
-  li {
-    padding: 1em;
-    margin-right: 20px;
-    width: 20%;
-    height: 250px;
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-
-    p {
-      margin: 0;
-    }
-
-    p.name {
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-    p.attribute {
-      font-size: 0.9rem;
-      flex-grow: 1;
-    }
-  }
 }

@@ -5,15 +5,5 @@
 </p>
 
 <ul *ngIf="brews">
-    <li *ngFor="let brew of filteredBrews" class="service-item">
-        <p class="name">{{ brew.name }}</p>
-        <br>
-        <p class="attribute">{{ brew.country }}</p>
-        <p class="attribute">{{ brew.state }}</p>
-        <p class="attribute">{{ brew.street }}</p>
-        <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
-        <div class="primary-button">
-            <a *ngIf="brew.website_url" href="{{ brew.website_url }}" target="_blank">Website</a>
-        </div>
-    </li>
+    <app-brew-card *ngFor="let brew of filteredBrews" [brew]="brew"></app-brew-card>
 </ul>
