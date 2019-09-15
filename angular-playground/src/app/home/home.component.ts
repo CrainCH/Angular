@@ -12,8 +12,6 @@ export class HomeComponent implements OnInit {
   brew: Brew = new Brew();
   countries: string[];
 
-  states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'Nebraska'];
-
   constructor(private http: HttpService) { }
 
   ngOnInit() {

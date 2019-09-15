@@ -10,8 +10,7 @@
         </ng-select>
 
         <label for="state">State</label>
-        <ng-select name="state" id="state" [items]="states" [(ngModel)]="brew.state">
-        </ng-select>
+        <input name="state" id="state" [(ngModel)]="brew.state" required />
 
         <label for="street">Street</label>
         <input name="street" id="street" [(ngModel)]="brew.street" required />
