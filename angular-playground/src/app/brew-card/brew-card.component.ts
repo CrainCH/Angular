@@ -8,9 +8,8 @@ import { Brew } from '../http/brew';
 })
 export class BrewCardComponent {
 
-  @Input() brew: Brew = new Brew();
-
-  constructor() { }
+  @Input()
+  brew: Brew = new Brew();
 
   public openLink() {
     window.open(this.brew.website_url, "_blank");
