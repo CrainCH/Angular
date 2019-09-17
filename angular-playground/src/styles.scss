@@ -193,13 +193,26 @@ header {
   outline: none;
 }
 
-.primary-button:disabled {
-  color: whitesmoke;
-  background-color: darkgray;
-  cursor: not-allowed;
-}
-
-.primary-button:enabled:hover {
+.primary-button:hover {
   background-color: $focus-color-dark;
   cursor: pointer;
+}
+
+.disabled-button {
+  display: inline-block;
+  background-color: darkgray;
+  padding: 12px 18px;
+  color: whitesmoke;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.5s;
+  border: 0px;
+  width: 92px;
+  height: 39px;
+  align-self: center;
+  outline: none;
+  cursor: not-allowed;
 }

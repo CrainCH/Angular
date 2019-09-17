@@ -5,7 +5,12 @@
     <p class="attribute">{{ brew.state }}</p>
     <p class="attribute">{{ brew.street }}</p>
     <p class="attribute">{{ brew.phone | phone: 'US' }}</p>
-    <button [disabled]="!brew.website_url" (click)="openLink()" class="primary-button">
-        Website
-    </button>
+
+    <ng-template [ngIf]="brew.website_url" [ngIfElse]="disabled">
+        <button (click)="openLink()" class="primary-button">Website</button>
+    </ng-template>
+
+    <ng-template #disabled>
+        <button class="disabled-button">Website</button>
+    </ng-template>
 </li>
