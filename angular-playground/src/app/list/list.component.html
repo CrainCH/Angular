@@ -5,6 +5,12 @@
         class="input">
 </p>
 
-<ul *ngIf="filteredBreweries">
-    <app-brewery-card *ngFor="let brewery of filteredBreweries" [brewery]="brewery"></app-brewery-card>
-</ul>
+<ng-template [ngIf]="filteredBreweries.length > 0" [ngIfElse]="noSearchResultsFound">
+    <ul>
+        <app-brewery-card *ngFor="let brewery of filteredBreweries" [brewery]="brewery"></app-brewery-card>
+    </ul>
+</ng-template>
+
+<ng-template #noSearchResultsFound>
+    <h2>no search results found</h2>
+</ng-template>
