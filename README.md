@@ -10,7 +10,11 @@ Table of contents
 Demo applications
 =================
 
-**[Angular Playground (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground)**<br>
+**[Edit Brewery (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/)**<br>
+![image](https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/HomeComponent.png)
+
+**[Breweries (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list/)**<br>
+![image](https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/ListComponent.png)
 
 CLI commands
 ============
