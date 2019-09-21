@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { PhonePipe } from './pipes/phone.pipe';
-import { BrewCardComponent } from './brew-card/brew-card.component';
+import { BreweryCardComponent } from './brewery-card/brewery-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { BrewCardComponent } from './brew-card/brew-card.component';
     HomeComponent,
     ListComponent,
     PhonePipe,
-    BrewCardComponent,
+    BreweryCardComponent,
   ],
   imports: [
     BrowserModule,

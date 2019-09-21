@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Brew, BrewAdapter } from './brew';
+import { Brewery, BreweryAdapter } from './brewery';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { CountryAdapter, Country, CountryNameAdapter } from './country';
@@ -14,15 +14,15 @@ export class HttpService {
 
   constructor(
     private http: HttpClient,
-    private brewAdapter: BrewAdapter,
+    private breweryAdapter: BreweryAdapter,
     private countryAdapter: CountryAdapter,
     private countryNameAdapter: CountryNameAdapter,
   ) { }
 
-  getBrews(): Observable<Brew[]> {
+  getBreweries(): Observable<Brewery[]> {
     return this.http.get(this.restBreweries).pipe(
       // Adapt each item in the raw data array
-      map((data: any[]) => data.map(item => this.brewAdapter.adapt(item))),
+      map((data: any[]) => data.map(item => this.breweryAdapter.adapt(item))),
     );
   }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Brew } from '../http/brew';
+import { Brewery } from '../http/brewery';
 import { HttpService } from '../http/http.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { HttpService } from '../http/http.service';
 })
 export class HomeComponent implements OnInit {
 
-  brew: Brew = new Brew();
+  brewery: Brewery = new Brewery();
   countries: string[];
 
   selectedTags = [1, 4];
@@ -24,8 +24,8 @@ export class HomeComponent implements OnInit {
   constructor(private http: HttpService) { }
 
   ngOnInit() {
-    this.http.getBrews().subscribe(data => {
-      this.brew = data[0];
+    this.http.getBreweries().subscribe(data => {
+      this.brewery = data[0];
     });
     this.http.getCountryNames().subscribe(data => {
       this.countries = data;

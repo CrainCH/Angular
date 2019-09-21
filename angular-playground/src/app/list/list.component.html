@@ -5,6 +5,6 @@
         class="input">
 </p>
 
-<ul *ngIf="brews">
-    <app-brew-card *ngFor="let brew of filteredBrews" [brew]="brew"></app-brew-card>
+<ul *ngIf="filteredBreweries">
+    <app-brewery-card *ngFor="let brewery of filteredBreweries" [brewery]="brewery"></app-brewery-card>
 </ul>

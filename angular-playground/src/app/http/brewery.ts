@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Adapter } from './adapter';
 
-export class Brew {
+export class Brewery {
     constructor(
         public id?: number,
         public name?: string,
@@ -21,10 +21,10 @@ export class Brew {
 @Injectable({
     providedIn: 'root'
 })
-export class BrewAdapter implements Adapter<Brew> {
+export class BreweryAdapter implements Adapter<Brewery> {
 
     adapt(item: any) {
-        return new Brew(
+        return new Brewery(
             item.id,
             item.name,
             item.brewery_type,

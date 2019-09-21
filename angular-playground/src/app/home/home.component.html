@@ -2,23 +2,23 @@
 
 <div class="sidebar">
     <label for="name">Name</label>
-    <input name="name" id="name" [(ngModel)]="brew.name" class="input" required />
+    <input name="name" id="name" [(ngModel)]="brewery.name" class="input" required />
 
     <label for="country">Country</label>
-    <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brew.country">
+    <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brewery.country">
     </ng-select>
 
     <label for="state">State</label>
-    <input name="state" id="state" [(ngModel)]="brew.state" class="input" required />
+    <input name="state" id="state" [(ngModel)]="brewery.state" class="input" required />
 
     <label for="street">Street</label>
-    <input name="street" id="street" [(ngModel)]="brew.street" class="input" required />
+    <input name="street" id="street" [(ngModel)]="brewery.street" class="input" required />
 
     <label for="phone">Phone</label>
-    <input name="phone" id="phone" [(ngModel)]="brew.phone" class="input" required />
+    <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" required />
 
     <label for="website_url">Website</label>
-    <input name="website_url" id="website_url" [(ngModel)]="brew.website_url" class="input" />
+    <input name="website_url" id="website_url" [(ngModel)]="brewery.website_url" class="input" />
 
     <label for="tags">Tags</label>
     <ng-select [multiple]="true" [(ngModel)]="selectedTags">
@@ -28,4 +28,4 @@
     <br>
 </div>
 
-<app-brew-card [brew]="brew"></app-brew-card>
+<app-brewery-card [brewery]="brewery"></app-brewery-card>
