@@ -4,6 +4,7 @@ Table of contents
 =================
 
 **[Demo applications](#demo-applications)**<br>
+**[Screenshots](#screenshots)**<br>
 **[CLI commands](#cli-commands)**<br>
 **[Software](#software)**<br>
 
@@ -11,14 +12,16 @@ Demo applications
 =================
 
 **[Edit Brewery (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/)**<br>
+**[Breweries (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list/)**<br>
+
+Screenshots
+===========
 
 **Desktop version**<br>
 ![image](angular-playground/screenshots/HomeComponent.png)
 
 **Mobile version**<br>
 ![image](angular-playground/screenshots/HomeComponentMobile.png)
-
-**[Breweries (deployed on GitHub)](https://crainch.github.io/Angular/angular-playground/list/)**<br>
 
 **Desktop version**<br>
 ![image](angular-playground/screenshots/ListComponent.png)
