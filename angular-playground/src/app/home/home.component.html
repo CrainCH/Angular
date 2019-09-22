@@ -11,11 +11,17 @@
     <label for="state">State</label>
     <input name="state" id="state" [(ngModel)]="brewery.state" class="input" required />
 
+    <label for="postal_code">Postal code</label>
+    <input name="postal_code" id="postal_code" [(ngModel)]="brewery.postal_code" class="input" required />
+
+    <label for="city">City</label>
+    <input name="city" id="city" [(ngModel)]="brewery.city" class="input" required />
+
     <label for="street">Street</label>
-    <input name="street" id="street" [(ngModel)]="brewery.street" class="input" required />
+    <input name="street" id="street" [(ngModel)]="brewery.street" class="input" />
 
     <label for="phone">Phone</label>
-    <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" required />
+    <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" />
 
     <label for="website_url">Website</label>
     <input name="website_url" id="website_url" [(ngModel)]="brewery.website_url" class="input" />
