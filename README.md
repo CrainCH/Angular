@@ -18,16 +18,16 @@ Screenshots
 ===========
 
 **Desktop version**<br>
-![image](angular-playground/screenshots/HomeComponent.png)
+<img src="https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/HomeComponent.png">
 
 **Mobile version**<br>
-![image](angular-playground/screenshots/HomeComponentMobile.png)
+<img src="https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/HomeComponentMobile.png" width="512">
 
 **Desktop version**<br>
-![image](angular-playground/screenshots/ListComponent.png)
+<img src="https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/ListComponent.png">
 
 **Mobile version**<br>
-![image](angular-playground/screenshots/ListComponentMobile.png)
+<img src="https://github.com/CrainCH/Angular/blob/master/angular-playground/screenshots/ListComponentMobile.png" width="512">
 
 CLI commands
 ============
