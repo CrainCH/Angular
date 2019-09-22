@@ -20,7 +20,7 @@ $font-size: 15px;
 $font-color: rgb(85, 85, 85);
 
 // sizes
-$min-width: 310px;
+$width: 310px;
 
 body {
   margin: 0;
@@ -39,7 +39,7 @@ label {
   margin-right: 10px;
   line-height: 40px;
   width: 20%;
-  min-width: 80px;
+  min-width: 120px;
 }
 
 .ng-valid[required],
@@ -53,8 +53,8 @@ label {
 
 .ng-select {
   float: left;
-  width: 76%;
-  min-width: $min-width + 30px;
+  min-width: $width + 30px;
+  max-width: $width + 30px;
   font-size: $font-size;
   color: $font-color;
   margin-bottom: 8px;
@@ -70,8 +70,8 @@ label {
 
 .input {
   display: block;
-  width: 70%;
-  min-width: $min-width;
+  min-width: $width;
+  max-width: $width;
   height: 23px;
   margin-bottom: 10px;
   padding: 6px 12px;
@@ -99,7 +99,7 @@ label {
 .sidebar {
   float: left;
   width: 30%;
-  min-width: $min-width + 30px;
+  min-width: $width + 30px;
   margin-right: 50px;
 }
 
