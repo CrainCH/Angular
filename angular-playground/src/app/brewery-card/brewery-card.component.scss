@@ -1,8 +1,11 @@
+// sizes
+$width: 310px;
+
 li {
   padding: 1em;
   margin-right: 20px;
-  width: 250px;
-  height: 250px;
+  width: $width;
+  height: $width;
   margin-bottom: 1em;
   display: flex;
   flex-direction: column;

@@ -32,13 +32,20 @@ export class ListComponent implements OnInit {
   }
 
   private filterBreweries(searchTerm: string) {
-    return this.breweries.filter(breweries =>
-      breweries.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
-      || breweries.country.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
-      || breweries.state.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
-      || breweries.street.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
-      || breweries.phone.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+    return this.breweries.filter(brewery => this.filterBrewery(searchTerm, brewery));
+  }
+
+  private filterBrewery(searchTerm: string, brewery: Brewery) {
+    const allFields = "".concat(
+      brewery.name,
+      brewery.country,
+      brewery.state,
+      brewery.postal_code,
+      brewery.city,
+      brewery.street,
+      brewery.phone,
     );
+    return allFields.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   }
 
 }
