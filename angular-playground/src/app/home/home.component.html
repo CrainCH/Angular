@@ -1,37 +1,53 @@
 <h1>Edit Brewery</h1>
 
-<div class="sidebar">
-    <label for="name">Name</label>
-    <input name="name" id="name" [(ngModel)]="brewery.name" class="input" required />
+<table class="sidebar">
+    <tr>
+        <label for="name">Name</label>
+        <input name="name" id="name" [(ngModel)]="brewery.name" class="input" required />
+    </tr>
 
-    <label for="country">Country</label>
-    <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brewery.country">
-    </ng-select>
+    <tr>
+        <label for="country">Country</label>
+        <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brewery.country">
+        </ng-select>
+    </tr>
 
-    <label for="state">State</label>
-    <input name="state" id="state" [(ngModel)]="brewery.state" class="input" required />
+    <tr>
+        <label for="state">State</label>
+        <input name="state" id="state" [(ngModel)]="brewery.state" class="input" required />
+    </tr>
 
-    <label for="postal_code">Postal code</label>
-    <input name="postal_code" id="postal_code" [(ngModel)]="brewery.postal_code" class="input" required />
+    <tr>
+        <label for="postal_code">Postal code</label>
+        <input name="postal_code" id="postal_code" [(ngModel)]="brewery.postal_code" class="input" required />
+    </tr>
 
-    <label for="city">City</label>
-    <input name="city" id="city" [(ngModel)]="brewery.city" class="input" required />
+    <tr>
+        <label for="city">City</label>
+        <input name="city" id="city" [(ngModel)]="brewery.city" class="input" required />
+    </tr>
 
-    <label for="street">Street</label>
-    <input name="street" id="street" [(ngModel)]="brewery.street" class="input" />
+    <tr>
+        <label for="street">Street</label>
+        <input name="street" id="street" [(ngModel)]="brewery.street" class="input" />
+    </tr>
 
-    <label for="phone">Phone</label>
-    <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" />
+    <tr>
+        <label for="phone">Phone</label>
+        <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" />
+    </tr>
 
-    <label for="website_url">Website</label>
-    <input name="website_url" id="website_url" [(ngModel)]="brewery.website_url" class="input" />
+    <tr>
+        <label for="website_url">Website</label>
+        <input name="website_url" id="website_url" [(ngModel)]="brewery.website_url" class="input" />
+    </tr>
 
-    <label for="tags">Tags</label>
-    <ng-select [multiple]="true" [(ngModel)]="selectedTags">
-        <ng-option *ngFor="let tag of tags" [value]="tag.id">{{tag.name}}</ng-option>
-    </ng-select>
-
-    <br>
-</div>
+    <tr>
+        <label for="tags">Tags</label>
+        <ng-select [multiple]="true" [(ngModel)]="selectedTags">
+            <ng-option *ngFor="let tag of tags" [value]="tag.id">{{tag.name}}</ng-option>
+        </ng-select>
+    </tr>
+</table>
 
 <app-brewery-card [brewery]="brewery"></app-brewery-card>
