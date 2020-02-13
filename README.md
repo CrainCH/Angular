@@ -1,4 +1,4 @@
-![Angular logo](https://fewclicks.io/wp-content/uploads/2017/08/tool-logo-angular.png)
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" width="256">
 
 Table of contents
 =================
