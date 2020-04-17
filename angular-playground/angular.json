@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "angular-playground"
+  "defaultProject": "angular-playground",
+  "cli": {
+    "analytics": "34f30ab3-e705-47ae-acab-e62d65085e21"
+  }
 }
