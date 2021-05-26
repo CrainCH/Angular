@@ -24,7 +24,7 @@
     "@angular/router": "^12.0.1",
     "@ng-select/ng-select": "^3.7.3",
     "g": "^2.0.1",
-    "libphonenumber-js": "^1.9.17",
+    "libphonenumber-js": "^1.9.18",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
