@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^12.0.3",
     "@angular/router": "^12.0.3",
     "@ng-select/ng-select": "^3.7.3",
-    "core-js": "^2.5.7",
+    "core-js": "^2.6.12",
     "g": "^2.0.1",
     "libphonenumber-js": "^1.9.19",
     "rxjs": "~6.5.5",
