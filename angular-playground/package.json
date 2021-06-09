@@ -4,7 +4,7 @@
   "scripts": {
     "start": "ng serve -o",
     "build": "ng build",
-    "extract translations": "ng extract-i18n --output-path src/locale",
+    "extract translations": "ng extract-i18n --output-path src/locale --format=xlf2",
     "build and deploy to github": "ng build --configuration production --base-href https://CrainCH.github.io/Angular/angular-playground && ngh --dir dist/angular-playground",
     "npm update": "npm update",
     "update angular core": "ng update @angular/cli @angular/core",

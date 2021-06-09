@@ -1,139 +1,143 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="app.title" datatype="html">
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="app.title">
+      <notes>
+        <note category="location">src/app/app.component.html:3</note>
+        <note category="description">Application Title</note>
+      </notes>
+      <segment>
         <source>CoolApp</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">Application Title</note>
-      </trans-unit>
-      <trans-unit id="home" datatype="html">
+      </segment>
+    </unit>
+    <unit id="home">
+      <notes>
+        <note category="location">src/app/app.component.html:6</note>
+        <note category="description">Home</note>
+      </notes>
+      <segment>
         <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">Home</note>
-      </trans-unit>
-      <trans-unit id="breweries" datatype="html">
+      </segment>
+    </unit>
+    <unit id="breweries">
+      <notes>
+        <note category="location">src/app/app.component.html:7</note>
+        <note category="location">src/app/list/list.component.html:1</note>
+        <note category="description">Breweries</note>
+      </notes>
+      <segment>
         <source>Breweries</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/list/list.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <note priority="1" from="description">Breweries</note>
-      </trans-unit>
-      <trans-unit id="website" datatype="html">
+      </segment>
+    </unit>
+    <unit id="website">
+      <notes>
+        <note category="location">src/app/brewery-card/brewery-card.component.html:11</note>
+        <note category="location">src/app/brewery-card/brewery-card.component.html:15</note>
+        <note category="location">src/app/home/home.component.html:41</note>
+        <note category="description">Website</note>
+      </notes>
+      <segment>
         <source>Website</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/brewery-card/brewery-card.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/brewery-card/brewery-card.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-        <note priority="1" from="description">Website</note>
-      </trans-unit>
-      <trans-unit id="edit.brewery.title" datatype="html">
+      </segment>
+    </unit>
+    <unit id="edit.brewery.title">
+      <notes>
+        <note category="location">src/app/home/home.component.html:1</note>
+        <note category="description">Edit Brewery Title</note>
+      </notes>
+      <segment>
         <source>Edit Brewery</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <note priority="1" from="description">Edit Brewery Title</note>
-      </trans-unit>
-      <trans-unit id="name" datatype="html">
+      </segment>
+    </unit>
+    <unit id="name">
+      <notes>
+        <note category="location">src/app/home/home.component.html:5</note>
+        <note category="description">Name</note>
+      </notes>
+      <segment>
         <source>Name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">Name</note>
-      </trans-unit>
-      <trans-unit id="country" datatype="html">
+      </segment>
+    </unit>
+    <unit id="country">
+      <notes>
+        <note category="location">src/app/home/home.component.html:10</note>
+        <note category="description">Country</note>
+      </notes>
+      <segment>
         <source>Country</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-        <note priority="1" from="description">Country</note>
-      </trans-unit>
-      <trans-unit id="state" datatype="html">
+      </segment>
+    </unit>
+    <unit id="state">
+      <notes>
+        <note category="location">src/app/home/home.component.html:16</note>
+        <note category="description">State</note>
+      </notes>
+      <segment>
         <source>State</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <note priority="1" from="description">State</note>
-      </trans-unit>
-      <trans-unit id="postal.code" datatype="html">
+      </segment>
+    </unit>
+    <unit id="postal.code">
+      <notes>
+        <note category="location">src/app/home/home.component.html:21</note>
+        <note category="description">Postal code</note>
+      </notes>
+      <segment>
         <source>Postal code</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-        <note priority="1" from="description">Postal code</note>
-      </trans-unit>
-      <trans-unit id="city" datatype="html">
+      </segment>
+    </unit>
+    <unit id="city">
+      <notes>
+        <note category="location">src/app/home/home.component.html:26</note>
+        <note category="description">City</note>
+      </notes>
+      <segment>
         <source>City</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <note priority="1" from="description">City</note>
-      </trans-unit>
-      <trans-unit id="street" datatype="html">
+      </segment>
+    </unit>
+    <unit id="street">
+      <notes>
+        <note category="location">src/app/home/home.component.html:31</note>
+        <note category="description">Street</note>
+      </notes>
+      <segment>
         <source>Street</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-        <note priority="1" from="description">Street</note>
-      </trans-unit>
-      <trans-unit id="phone" datatype="html">
+      </segment>
+    </unit>
+    <unit id="phone">
+      <notes>
+        <note category="location">src/app/home/home.component.html:36</note>
+        <note category="description">Phone</note>
+      </notes>
+      <segment>
         <source>Phone</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-        <note priority="1" from="description">Phone</note>
-      </trans-unit>
-      <trans-unit id="tags" datatype="html">
+      </segment>
+    </unit>
+    <unit id="tags">
+      <notes>
+        <note category="location">src/app/home/home.component.html:46</note>
+        <note category="description">Tags</note>
+      </notes>
+      <segment>
         <source>Tags</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-        <note priority="1" from="description">Tags</note>
-      </trans-unit>
-      <trans-unit id="search.field.placeholder" datatype="html">
+      </segment>
+    </unit>
+    <unit id="search.field.placeholder">
+      <notes>
+        <note category="location">src/app/list/list.component.html:4</note>
+        <note category="description">Search field placeholder</note>
+      </notes>
+      <segment>
         <source>Search by any term</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/list/list.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">Search field placeholder</note>
-      </trans-unit>
-      <trans-unit id="no.search.results.found" datatype="html">
+      </segment>
+    </unit>
+    <unit id="no.search.results.found">
+      <notes>
+        <note category="location">src/app/list/list.component.html:16</note>
+        <note category="description">no search results found</note>
+      </notes>
+      <segment>
         <source>no search results found</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/list/list.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <note priority="1" from="description">no search results found</note>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
   </file>
 </xliff>
