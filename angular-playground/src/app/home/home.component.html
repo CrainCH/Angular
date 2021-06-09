@@ -1,49 +1,49 @@
-<h1>Edit Brewery</h1>
+<h1 i18n="Edit Brewery Title@@edit.brewery.title">Edit Brewery</h1>
 
 <table class="sidebar">
     <tr>
-        <label for="name">Name</label>
+        <label for="name" i18n="Name@@name">Name</label>
         <input name="name" id="name" [(ngModel)]="brewery.name" class="input" required />
     </tr>
 
     <tr>
-        <label for="country">Country</label>
+        <label for="country" i18n="Country@@country">Country</label>
         <ng-select name="country" id="country" [items]="countries" [(ngModel)]="brewery.country">
         </ng-select>
     </tr>
 
     <tr>
-        <label for="state">State</label>
+        <label for="state" i18n="State@@state">State</label>
         <input name="state" id="state" [(ngModel)]="brewery.state" class="input" required />
     </tr>
 
     <tr>
-        <label for="postal_code">Postal code</label>
+        <label for="postal_code" i18n="Postal code@@postal.code">Postal code</label>
         <input name="postal_code" id="postal_code" [(ngModel)]="brewery.postal_code" class="input" required />
     </tr>
 
     <tr>
-        <label for="city">City</label>
+        <label for="city" i18n="City@@city">City</label>
         <input name="city" id="city" [(ngModel)]="brewery.city" class="input" required />
     </tr>
 
     <tr>
-        <label for="street">Street</label>
+        <label for="street" i18n="Street@@street">Street</label>
         <input name="street" id="street" [(ngModel)]="brewery.street" class="input" />
     </tr>
 
     <tr>
-        <label for="phone">Phone</label>
+        <label for="phone" i18n="Phone@@phone">Phone</label>
         <input name="phone" id="phone" [(ngModel)]="brewery.phone" class="input" />
     </tr>
 
     <tr>
-        <label for="website_url">Website</label>
+        <label for="website_url" i18n="Website@@website">Website</label>
         <input name="website_url" id="website_url" [(ngModel)]="brewery.website_url" class="input" />
     </tr>
 
     <tr>
-        <label for="tags">Tags</label>
+        <label for="tags" i18n="Tags@@tags">Tags</label>
         <ng-select [multiple]="true" [(ngModel)]="selectedTags">
             <ng-option *ngFor="let tag of tags" [value]="tag.id">{{tag.name}}</ng-option>
         </ng-select>

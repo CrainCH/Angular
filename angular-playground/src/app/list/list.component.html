@@ -1,8 +1,9 @@
-<h1>Breweries</h1>
+<h1 i18n="Breweries@@breweries">Breweries</h1>
 
 <p>
-    <input type="text" placeholder="Search by any term" style="width: 320px; min-width: 320px" [(ngModel)]="searchTerm"
-        class="input">
+    <input type="text" placeholder="Search by any term"
+        i18n-placeholder="Search field placeholder@@search.field.placeholder" style="width: 320px; min-width: 320px"
+        [(ngModel)]="searchTerm" class="input">
 </p>
 
 <ng-template [ngIf]="filteredBreweries.length > 0" [ngIfElse]="noSearchResultsFound">
@@ -12,5 +13,5 @@
 </ng-template>
 
 <ng-template #noSearchResultsFound>
-    <h2>no search results found</h2>
+    <h2 i18n="no search results found@@no.search.results.found">no search results found</h2>
 </ng-template>
