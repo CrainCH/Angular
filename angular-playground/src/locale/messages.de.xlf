@@ -18,7 +18,7 @@
       </notes>
       <segment>
         <source>Home</source>
-        <target>Home</target>
+        <target>Start</target>
       </segment>
     </unit>
     <unit id="breweries">

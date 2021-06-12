@@ -13,10 +13,18 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de": "src/locale/messages.de.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
+            "aot": true,
             "outputPath": "dist/angular-playground",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -38,6 +46,12 @@
             "namedChunks": true
           },
           "configurations": {
+            "de": {
+              "localize": [
+                "de"
+              ],
+              "main": "src/main.ts"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -75,6 +89,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-playground:build:production"
+            },
+            "de": {
+              "browserTarget": "angular-playground:build:de"
             }
           }
         },

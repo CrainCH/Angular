@@ -2,8 +2,8 @@
   "name": "angular-playground",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve -o",
-    "build": "ng build",
+    "start": "ng serve -o --configuration=de",
+    "build": "ng build --localize",
     "extract translations": "ng extract-i18n --output-path src/locale --format=xlf2",
     "build and deploy to github": "ng build --configuration production --base-href https://CrainCH.github.io/Angular/angular-playground && ngh --dir dist/angular-playground",
     "npm update": "npm update",
