@@ -8,6 +8,7 @@
       </notes>
       <segment>
         <source>CoolApp</source>
+        <target>CoolApp</target>
       </segment>
     </unit>
     <unit id="home">
@@ -17,6 +18,7 @@
       </notes>
       <segment>
         <source>Home</source>
+        <target>Home</target>
       </segment>
     </unit>
     <unit id="breweries">
@@ -27,6 +29,7 @@
       </notes>
       <segment>
         <source>Breweries</source>
+        <target>Brauereien</target>
       </segment>
     </unit>
     <unit id="website">
@@ -38,6 +41,7 @@
       </notes>
       <segment>
         <source>Website</source>
+        <target>Webseite</target>
       </segment>
     </unit>
     <unit id="edit.brewery.title">
@@ -47,6 +51,7 @@
       </notes>
       <segment>
         <source>Edit Brewery</source>
+        <target>Brauerei editieren</target>
       </segment>
     </unit>
     <unit id="name">
@@ -56,6 +61,7 @@
       </notes>
       <segment>
         <source>Name</source>
+        <target>Name</target>
       </segment>
     </unit>
     <unit id="country">
@@ -65,6 +71,7 @@
       </notes>
       <segment>
         <source>Country</source>
+        <target>Land</target>
       </segment>
     </unit>
     <unit id="state">
@@ -74,6 +81,7 @@
       </notes>
       <segment>
         <source>State</source>
+        <target>Staat</target>
       </segment>
     </unit>
     <unit id="postal.code">
@@ -83,6 +91,7 @@
       </notes>
       <segment>
         <source>Postal code</source>
+        <target>Postleitzahl</target>
       </segment>
     </unit>
     <unit id="city">
@@ -92,6 +101,7 @@
       </notes>
       <segment>
         <source>City</source>
+        <target>Stadt</target>
       </segment>
     </unit>
     <unit id="street">
@@ -101,6 +111,7 @@
       </notes>
       <segment>
         <source>Street</source>
+        <target>Strasse</target>
       </segment>
     </unit>
     <unit id="phone">
@@ -119,6 +130,7 @@
       </notes>
       <segment>
         <source>Tags</source>
+        <target>Tags</target>
       </segment>
     </unit>
     <unit id="search.field.placeholder">
@@ -128,6 +140,7 @@
       </notes>
       <segment>
         <source>Search by any term</source>
+        <target>Irgendein Suchbegriff</target>
       </segment>
     </unit>
     <unit id="no.search.results.found">
@@ -137,6 +150,7 @@
       </notes>
       <segment>
         <source>No search results found</source>
+        <target>Keine Suchresultate gefunden</target>
       </segment>
     </unit>
   </file>
