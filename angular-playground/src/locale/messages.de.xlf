@@ -121,6 +121,7 @@
       </notes>
       <segment>
         <source>Phone</source>
+        <target>Telefon</target>
       </segment>
     </unit>
     <unit id="tags">
